@@ -1,0 +1,82 @@
+body {
+    background-image: url(font.jpg);
+    background-size:cover ;
+}
+.App {
+    display: flex;
+    justify-content: center; 
+}
+.containerMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    min-height: 80vh;
+    width: 400px;
+    border: 2px solid #0283ff;
+    border-radius: 7px; 
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+.radius {
+    display: flex;
+    justify-content: center;
+    width: 10em;
+    height: 5em;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    background: #0283ff;
+  }
+.containerNext {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70vh;
+    width: 400px;
+}
+.containerTwo {
+    display: flex;
+    width: 400px;
+}
+
+input {
+   flex: 1; 
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+}
+.btn {
+    padding: 15px;
+    border: none;
+    border-radius: 5px; 
+    background: #0283ff;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+h2 {
+    color:darkgrey;
+    font-family: 'Roboto', sans-serif;
+}
+li {
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+}
+.crossed {
+    text-decoration: line-through 2px green;
+    list-style-image: url(check.png);
+    line-height:20px;
+    -webkit-text-decoration-line: line-through;
+
+    -webkit-text-decoration-color: green;
+
+    -webkit-text-decoration-thickness:2px;
+}
