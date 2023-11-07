@@ -12,8 +12,8 @@
 
 
 <div>
-  <img src=https://github.com/JuliaWebDeveloper/ToDoList/blob/main/assets/toDoOne.png width="300"/>&nbsp;
-  <img src=https://github.com/JuliaWebDeveloper/ToDoList/blob/main/assets/toDoTwo.png width="300"/>&nbsp;
+  <img src=https://github.com/JuliaWebDeveloper/ToDoList/blob/main/src/toDoOne.png width="500"/>&nbsp;
+  <img src=https://github.com/JuliaWebDeveloper/ToDoList/blob/main/src/toDoTwo.png width="500"/>&nbsp;
   
   
 </div>
